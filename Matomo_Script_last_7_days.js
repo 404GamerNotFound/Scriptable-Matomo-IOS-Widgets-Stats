@@ -8,7 +8,7 @@ if (!widgetParameter) {
 
 // Parse the parameter to get the Site-ID
 // Read the `siteId` from the widget parameter
-const siteId = args.widgetParameter || "default-site-ID"; // Set a default Site-ID if none was provided
+const siteId = args.widgetParameter || "1"; // Set a default Site-ID if none was provided
 
 // Constants for the Matomo API
 const matomoUrl = "https://analytics.example.com";
