@@ -1,11 +1,6 @@
 // Read the parameter from the widget parameter
 const widgetParameter = args.widgetParameter;
 
-// Ensure that a parameter was passed
-if (!widgetParameter) {
-  throw new Error("Please make sure to enter a Site-ID as the widget parameter.");
-}
-
 // Parse the parameter to get the Site-ID
 // Read the `siteId` from the widget parameter
 const siteId = args.widgetParameter || "1"; // Set a default Site-ID if none was provided
