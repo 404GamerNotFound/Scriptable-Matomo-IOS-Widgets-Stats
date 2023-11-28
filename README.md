@@ -1,48 +1,51 @@
-# iOS Matomo Widget for Scriptable
+# Matomo Analytics Widgets for Scriptable
 
-This repository contains a script for the iOS app "Scriptable" that generates a widget displaying visitor statistics from a Matomo analytics server.
+## Overview
+This repository contains two Scriptable widgets designed to display website analytics using Matomo. Each widget offers different insights and data presentation styles, allowing users to keep track of their website's performance directly from their iOS home screen.
+
+## Scripts Description
+
+### Script 1: Detailed Analytics Widget
+- Displays current and previous 7-day visitor and page view counts.
+- Shows percentage changes in visitors and views.
+- Utilizes a visually engaging design with emojis for easy comprehension.
+- Customizable widget background and text colors.
+
+### Script 2: Weekly Summary Widget
+- Provides a quick summary of today's, yesterday's, this week's, and last week's visitor counts.
+- Focuses on simplicity and ease of understanding.
+- Ideal for a quick glance at recent visitor trends.
 
 ## Features
-
-- Displays today's visitor count.
-- Displays yesterday's visitor count.
-- Displays the current week's visitor count.
-- Displays the previous week's visitor count.
+- Integration with Matomo Analytics for real-time data.
+- Customizable appearance and layout for different data presentation.
+- Easy setup and usage within the Scriptable app.
 
 ## Requirements
+- An iOS device with the Scriptable app installed.
+- Access to a Matomo Analytics account and API token.
+- Basic knowledge of JavaScript for customization (optional).
 
-- iOS device with Scriptable app installed.
-- Access to a Matomo analytics server.
+## Installation and Setup
+1. Copy the JavaScript code for your chosen widget.
+2. Open Scriptable and create a new script.
+3. Paste the copied code into the script.
+4. Replace `MATOMO_URL`, `SITE_ID_FROM_MATOMO`, and `MATOMO_AUTH_TOKEN` with your actual Matomo Analytics credentials.
+5. Run the script in Scriptable to test, then add the widget to your home screen.
 
-## Setup
-
-1. Clone or download this repository to your device.
-2. Open the Scriptable app on your iOS device.
-3. Create a new script and copy the contents of the `matomo_widget.js` file into the script editor.
-4. Replace the placeholder values in the script with your actual Matomo URL, site ID, site name, and API token.
-    - `const matomoUrl = "https://your-matomo-url.com";`
-    - `const siteId = "your-site-id";`
-    - `const siteName = "your-site-name";`
-    - `const tokenAuth = "your-matomo-api-token";`
-5. Run the script to verify it works correctly.
-
-## Usage
-
-To add the widget to your home screen:
-
-1. Long press on your home screen and enter the "jiggle" mode.
-2. Tap the "+" button in the upper-left corner.
-3. Scroll down and select Scriptable.
-4. Choose the size of the widget you want to add.
-5. Tap "Add Widget".
-6. Long press the newly created widget and select "Edit Widget".
-7. Choose the script you've created for the Matomo widget.
-8. Exit the "jiggle" mode.
+## Customization
+- You can modify the background color, text color, and other aspects of the widget by editing the corresponding lines in the script.
 
 ## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Your contributions, issues, and feature requests are welcome. Please refer to the [issues page](#) for more details.
 
 ## License
+This project is distributed under the MIT License. See `LICENSE` for more information.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Acknowledgements
+- [Scriptable App](https://scriptable.app/)
+- [Matomo Analytics](https://matomo.org/)
+
+## Preview Images
+- Detailed Analytics Widget: ![Detailed Analytics Widget](/img/img1.png)
+- Weekly Summary Widget:
