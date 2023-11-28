@@ -47,5 +47,5 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 - [Matomo Analytics](https://matomo.org/)
 
 ## Preview Images
-- Detailed Analytics Widget: ![Detailed Analytics Widget](/img/img1.png)
-- Weekly Summary Widget:
+- Detailed Analytics Widget: 
+- Weekly Summary Widget: ![Detailed Analytics Widget](/img/img1.png)
