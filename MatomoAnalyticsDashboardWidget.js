@@ -1,7 +1,7 @@
-// Konstanten für die Matomo-API
-const matomoUrl = "MATOMO_URL"; // change it to the Matomo URL (analytic.example.com)
-const tokenAuth = "APY_KEY"; // change it -> API KEY (https://matomo.org/faq/general/faq_114/)
-const siteId = args.widgetParameter || "1" // Standard-Site-ID
+// Const for Matomo-API
+const matomoUrl = "https://analytics.example.com"; // change it to the Matomo URL (analytic.example.com)
+const tokenAuth = "API_KEY"; // change it -> API KEY (https://matomo.org/faq/general/faq_114/)
+const siteId = args.widgetParameter || "1"; // Standard-Site-ID
 
 
 // Functions for formatting the data for the API request
