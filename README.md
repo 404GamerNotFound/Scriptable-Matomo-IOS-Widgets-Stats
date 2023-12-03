@@ -1,7 +1,7 @@
 # Matomo Analytics Widgets for Scriptable
 
 ## Overview
-This repository contains two Scriptable widgets designed to display website analytics using Matomo. Each widget offers different insights and data presentation styles, allowing users to keep track of their website's performance directly from their iOS home screen.
+This repository features a suite of Scriptable widgets, each uniquely crafted to display website analytics via Matomo. Tailored for iOS home screens, these widgets provide diverse insights and data visualization styles, ensuring a comprehensive view of website performance.
 
 ## Scripts Description
 
@@ -15,6 +15,13 @@ This repository contains two Scriptable widgets designed to display website anal
 - Provides a quick summary of today's, yesterday's, this week's, and last week's visitor counts.
 - Focuses on simplicity and ease of understanding.
 - Ideal for a quick glance at recent visitor trends.
+
+### Script 3: Real-Time Visitor Insights Widget
+- Concentrates on displaying real-time visitor data from Matomo analytics in a dynamic and engaging format.
+- Presents up to eight most recent visitor interactions, including specific details such as visit time, country, number of actions, and more.
+- Offers a comprehensive snapshot of visitor behavior, including device type, operating system, browser type, and IP address.
+- Tailored for users who require immediate, up-to-date insights into website traffic and visitor interactions.
+- The widget's layout is optimized for readability and quick analysis, making it perfect for on-the-go assessments of site activity.
 
 ## Features
 - Integration with Matomo Analytics for real-time data.
@@ -49,3 +56,4 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 ## Preview Images
 - Detailed Analytics Widget: 
 - Weekly Summary Widget: ![Detailed Analytics Widget](/img/img1.png)
+- MatomoRealtimeWiget.js ![Matomo Realtime Wiget](/img/img3.png)
