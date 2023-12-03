@@ -56,4 +56,4 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 ## Preview Images
 - Detailed Analytics Widget: 
 - Weekly Summary Widget: ![Detailed Analytics Widget](/img/img1.png)
-- MatomoRealtimeWiget.js ![Matomo Realtime Wiget](/img/img3.png)
+- MatomoRealtimeWiget.js ![Matomo Realtime Wiget](/img/img3.jpeg)
